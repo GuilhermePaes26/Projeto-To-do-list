@@ -1,6 +1,6 @@
 const express = require("express");
 const checklistRouter = require("./src/routes/checklist");
-
+const mongoose = require("./config/database");
 const app = express();
 app.use(express.json());
 
